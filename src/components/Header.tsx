@@ -41,11 +41,11 @@ function Header() {
                       <div className="flex items-center space-x-3">
                         <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center bg-gradient-to-br from-blue-50 to-purple-50 shadow-sm hover:shadow-md transition-all duration-300">
                           <Link to="/" className="w-full h-full flex items-center justify-center">
-                            <img src="/Logo.webp" alt="BigNightCompany" className="w-full h-full object-contain" />
+                            <img src="/LogoNewBlack.png" alt="BigNight" className="w-full h-full object-contain" />
                           </Link>
                         </div>
                         <div className="hidden sm:block">
-                          <h1 className="text-lg font-bold text-gray-900">BigNightCompany</h1>
+                          <h1 className="text-lg font-bold text-gray-900 uppercase">BigNight</h1>
                           <p className="text-xs text-gray-500">SaaS Ecommerce</p>
                         </div>
                       </div>
