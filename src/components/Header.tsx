@@ -60,6 +60,13 @@ function Header() {
                           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                         </Link>
                         <Link 
+                          to="/tienda-virtual" 
+                          className="nav-link text-gray-600 hover:text-blue-600 transition-all duration-300 font-medium relative group px-3 py-2 rounded-lg hover:bg-gray-50"
+                        >
+                          Tienda Virtual
+                          <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                        </Link>
+                        <Link 
                           to="/planes" 
                           className="nav-link text-gray-600 hover:text-blue-600 transition-all duration-300 font-medium relative group px-3 py-2 rounded-lg hover:bg-gray-50"
                         >
@@ -88,7 +95,7 @@ function Header() {
 
                     {/* Mobile Navigation */}
                     <div className={`md:hidden border-t border-gray-200 transition-all duration-300 ease-in-out overflow-hidden ${
-                      isMenuOpen ? 'max-h-64 opacity-100 pt-4 pb-4' : 'max-h-0 opacity-0'
+                      isMenuOpen ? 'max-h-80 opacity-100 pt-4 pb-4' : 'max-h-0 opacity-0'
                     }`}>
                       <div className="flex flex-col space-y-4 px-4">
                         <Link 
@@ -97,6 +104,13 @@ function Header() {
                           className="nav-link text-gray-600 hover:text-blue-600 transition-all duration-300 text-center py-3 px-4 rounded-lg hover:bg-gray-50 font-medium focus:bg-gray-50"
                         >
                           Inicio
+                        </Link>
+                        <Link 
+                          to="/tienda-virtual" 
+                          onClick={closeMenu}
+                          className="nav-link text-gray-600 hover:text-blue-600 transition-all duration-300 text-center py-3 px-4 rounded-lg hover:bg-gray-50 font-medium focus:bg-gray-50"
+                        >
+                          Tienda Virtual
                         </Link>
                         <Link 
                           to="/planes" 

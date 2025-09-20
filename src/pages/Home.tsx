@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import {
   ShoppingCart,
   Zap,
@@ -377,12 +378,18 @@ function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <a href="https://venta-de-polo.vercel.app/" target="_blank" rel="noopener noreferrer" className="nav-link bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
-              💳 Ver Demo Completa
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a href="https://venta-de-polo.vercel.app/" target="_blank" rel="noopener noreferrer" className="nav-link bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
+                💳 Ver Demo Completa
+              </a>
+              <Link to="/tienda-virtual" className="nav-link bg-white text-gray-700 px-8 py-4 rounded-xl font-semibold text-lg border-2 border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 focus:bg-blue-50">
+                🏪 Ver Tienda Virtual
+              </Link>
+            </div>
           </div>
         </div>
       </section>
+
 
       {/* Sección de Testimonios - Mejorada con métricas */}
       <section className="py-16 bg-gray-50">

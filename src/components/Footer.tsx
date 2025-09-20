@@ -36,6 +36,11 @@ function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to="/tienda-virtual" className="hover:text-white">
+                  Tienda Virtual
+                </Link>
+              </li>
+              <li>
                 <a
                   href="https://venta-de-polo.vercel.app/"
                   target="_blank"

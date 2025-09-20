@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import TiendaVirtual from './pages/TiendaVirtual';
 import Planes from './pages/Planes';
 import Terminos from './pages/Terminos';
 
@@ -13,6 +14,7 @@ function App() {
         <main>
                            <Routes>
                    <Route path="/" element={<Home />} />
+                   <Route path="/tienda-virtual" element={<TiendaVirtual />} />
                    <Route path="/planes" element={<Planes />} />
                    <Route path="/terminos" element={<Terminos />} />
                  </Routes>
