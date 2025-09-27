@@ -73,8 +73,8 @@ function Header() {
                           Planes
                           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                         </Link>
-                        <a href="https://wa.me/51965728013?text=Hola! Quiero obtener mi tienda de polos por S/499. ¿Me puedes dar más información?" target="_blank" rel="noopener noreferrer" className="nav-link bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
-                          Obtener por S/499
+                        <a href="https://wa.me/51965728013?text=Hola! Quiero obtener mi tienda de polos por S/299. ¿Me puedes dar más información?" target="_blank" rel="noopener noreferrer" className="nav-link bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
+                          Obtener por S/299
                         </a>
                       </div>
 
@@ -119,10 +119,10 @@ function Header() {
                         >
                           Planes
                         </Link>
-                        <a href="https://wa.me/51965728013?text=Hola! Quiero obtener mi tienda de polos por S/499. ¿Me puedes dar más información?" target="_blank" rel="noopener noreferrer" className="nav-link bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 w-full animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
+                        <a href="https://wa.me/51965728013?text=Hola! Quiero obtener mi tienda de polos por S/299. ¿Me puedes dar más información?" target="_blank" rel="noopener noreferrer" className="nav-link bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 w-full animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
                           <span className="flex items-center justify-center">
                             <Zap className="w-4 h-4 mr-2" />
-                            Obtener por S/499
+                            Obtener por S/299
                           </span>
                         </a>
                       </div>

@@ -62,7 +62,7 @@ function Terminos() {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span>El primer pago de S/ 499 incluye el dominio por 1 año y la configuración completa del ecommerce.</span>
+                  <span>El primer pago de S/ 299 incluye el dominio por 1 año y la configuración completa del ecommerce.</span>
                 </li>
               </ul>
             </div>
@@ -126,7 +126,7 @@ function Terminos() {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span>Primer pago: S/ 499 (incluye dominio, hosting por 1 año, configuración inicial y soporte técnico básico).</span>
+                  <span>Primer pago: S/ 299 (incluye dominio, hosting por 1 año, configuración inicial y soporte técnico básico).</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />

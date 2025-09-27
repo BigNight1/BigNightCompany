@@ -107,8 +107,8 @@ function Home() {
 
             {/* CTAs principales */}
                           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                <a href="https://wa.me/51965728013?text=Hola! Quiero obtener mi tienda de polos por S/499. ¿Me puedes dar más información?" target="_blank" rel="noopener noreferrer" className="nav-link bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
-                  🚀 Obtener mi tienda por S/499
+                <a href="https://wa.me/51965728013?text=Hola! Quiero obtener mi tienda de polos por S/299. ¿Me puedes dar más información?" target="_blank" rel="noopener noreferrer" className="nav-link bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
+                  🚀 Obtener mi tienda por S/299
                 </a>
                 <a href="https://venta-de-polo.vercel.app/" target="_blank" rel="noopener noreferrer" className="nav-link bg-white text-gray-700 px-8 py-4 rounded-xl font-semibold text-lg border-2 border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 focus:bg-blue-50">
                   💳 Ver Demo Gratuita

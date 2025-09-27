@@ -123,7 +123,7 @@ function Planes() {
                 </h3>
                 <div className="mb-4">
                   <span className="text-4xl font-bold text-gray-900">
-                    S/499
+                    S/299
                   </span>
                   <span className="text-lg text-gray-500 ml-2">pago único</span>
                 </div>
@@ -184,7 +184,7 @@ function Planes() {
               </div>
 
               <button className="nav-link w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 animate-pulse-glow focus:from-blue-700 focus:to-purple-700">
-                🚀 Obtener por S/499
+                🚀 Obtener por S/299
               </button>
             </div>
 
@@ -306,7 +306,7 @@ function Planes() {
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-medium">Costo inicial</td>
                     <td className="px-6 py-4 text-center text-green-600 font-semibold">
-                      S/499
+                      S/299
                     </td>
                     <td className="px-6 py-4 text-center text-gray-600">
                       S/2,400+
